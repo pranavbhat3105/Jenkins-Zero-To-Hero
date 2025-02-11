@@ -47,7 +47,7 @@
     }
     stage('Update Deployment File') {
         environment {
-            GIT_REPO_NAME = "Jenkins-Project
+            GIT_REPO_NAME = "Jenkins-Project"
             GIT_USER_NAME = "pranavbhat3105"
         }
         steps {
